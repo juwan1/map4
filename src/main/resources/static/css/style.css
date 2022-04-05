@@ -5,7 +5,6 @@ p{
 .JgNavigationBar-MainMenu-Left{
     width : 10%;
     height : 10%;
-    align-content: right;
     text-align : right;
     position: relative;
 }
@@ -43,4 +42,11 @@ p{
     position : relative;
     margin: 0;
 
+}
+.JgNavigationBar-Map{
+    height : 600px;
+}
+.JgNavigationBar-Map-Main{
+    width : 100%;
+    height : 100%;
 }

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css?ver=1" type="text/css">
     <title>Document</title>
-
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=6v90ok4f1f"></script>
 </head>
 <body>
 <header class="JgNavigationBar-Wrapper">
@@ -35,7 +35,17 @@
         </div>
 
     </section>
+    <section class="JgNavigationBar-Map">
+        <div class="JgNavigationBar-Map-Main" id="naverMap"> </div>
+        <script>
+            var mapOptions = {
+                center: new naver.maps.LatLng(37.3595704, 127.105399),
+                zoom: 10
+            };
 
+            var map = new naver.maps.Map('naverMap', mapOptions);
+        </script>
+    </section>
 
 </header>
 </body>
