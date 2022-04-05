@@ -1,0 +1,46 @@
+
+p{
+    display : block;
+}
+.JgNavigationBar-MainMenu-Left{
+    width : 10%;
+    height : 10%;
+    align-content: right;
+    text-align : right;
+    position: relative;
+}
+.JgNavigationBar-MainMenu{
+    display : flex;
+}
+.JgNavigationBar-MainMenu-Right{
+    width : 90%;
+    height : 90%;
+    display: flex;
+    position: relative;
+
+}
+.JgNavigationBar-MainMenu-Left-Lower p{
+    font-size : 10px;
+    margin-top : 0px;
+}
+.JgNavigationBar-MainMenu-Right img{
+    width: 120px;
+    height: 35px;
+    margin-left : 2px;
+}
+
+.JgNavigationBar-MainMenu-Right input{
+    width: 70%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px
+}
+.JgNavigationBar-MainMenu-Right .fit-search{
+    width: 16px;
+    top: 4px;
+    right: 22px;
+    position : relative;
+    margin: 0;
+
+}
